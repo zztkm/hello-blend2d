@@ -1,0 +1,6 @@
+# 依存ライブラリ
+blend2d/
+# ビルドディレクトリ
+app/build
+
+.cache
