@@ -49,7 +49,7 @@ ninja
 open output.png
 ```
 
-例: ![output.png](./output.png)
+![output.png](./output.png)
 
 ## エディタの設定について
 
