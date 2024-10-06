@@ -14,6 +14,22 @@ TODO: 他にも依存ツールがあるかもしれないが、新規にイン�
 
 ## ビルド手順
 
+uv を利用します。
+
+```bash
+uv sync
+uv run build.py
+```
+
+依存関係やビルドディレクトリを削除して、再度ビルドする場合は、以下のコマンドを実行する。
+
+```bash
+uv run build.py --clean --clean-deps
+```
+
+### 旧ビルド手順
+
+```bash
 Blend2D と asmjit を取得する。
 
 ```bash
